@@ -19,5 +19,5 @@ the language code followed by the text. Exampleee:
 
 To use it as a module to following do the exact same thing:
 
-    from pytts import pyTTS
-    pyTTS().say("Hello world !","en")
+    from pytts import pytts
+    pytts().say("Hello world !","en")
