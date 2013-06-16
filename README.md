@@ -35,16 +35,16 @@ To use PyTTS as a module, you just need to import the module and instanciate a p
 
 The available methods for pytts are:
 
-say(self, text, lang='en', volume=5.0)
+* **say(self, text, lang='en', volume=5.0)**
   Speech the given text, and return when its done.
 
-sayNB(self, text, lang='en', volume=5.0)
+* **sayNB(self, text, lang='en', volume=5.0)**
   Same as say but non-blocking method. NB (for non blocking)
 
-download(self, text, lang='en', filename="translate_tts.mp3")
+* **download(self, text, lang='en', filename="translate_tts.mp3")**
   Download the mp3 speech file instead of playing it. (Into the given file path)
 
-setVolume(self, val)
+* **setVolume(self, val)**
   Put the player volume at the given value
 
 
